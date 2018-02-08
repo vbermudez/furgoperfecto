@@ -1,0 +1,19 @@
+<ion-item>
+    <ion-label>Todo: <b>{{todas ? 'Sí' : 'Filtrado'}}</b></ion-label>
+    <ion-toggle [(ngModel)]="todas" (ionChange)="close()"></ion-toggle>
+</ion-item>
+
+<ion-item>
+    <ion-label>Gratuito: <b>{{gratuito ? 'Sí' : 'Todo'}}</b></ion-label>
+    <ion-toggle [(ngModel)]="gratuito" (ionChange)="close()"></ion-toggle>
+</ion-item>
+
+<ion-item>
+    <ion-label>Con Agua: <b>{{agua ? 'Sí' : 'No'}}</b></ion-label>
+    <ion-toggle [(ngModel)]="agua" (ionChange)="close()"></ion-toggle>
+</ion-item>
+
+<ion-item>
+    <ion-label>Con WC: <b>{{wc ? 'Sí' : 'No'}}</b></ion-label>
+    <ion-toggle [(ngModel)]="wc" (ionChange)="close()"></ion-toggle>
+</ion-item>

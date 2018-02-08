@@ -1,14 +1,15 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      FurgoPerfektoa
+      
+      <button ion-button icon-only (click)="showFilters($event)" style="float: right;">
+        <ion-icon name="more"></ion-icon>
+      </button>
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div #map id="map"></div>
 </ion-content>

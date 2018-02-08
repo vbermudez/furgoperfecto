@@ -1,5 +1,8 @@
 {
   "name": "furgoperfecto",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "3dd0792d",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }
